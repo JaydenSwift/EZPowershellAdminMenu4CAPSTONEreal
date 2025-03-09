@@ -1,7 +1,6 @@
 #TODO
 #Finish Menu for account creation, removal, information, and modification
 #Create Menu for viewing inbound, outbound, and all connections (netstat stuff)
-#Brainstorm more ideas for PS Admin menu
 #==========================Powershell main menu====================================
 function Show-Menu
 {
@@ -316,23 +315,10 @@ do
             Clear-Host
             Write-Host "test1"
             Pause
-        
-        
-
-
-
-
-
-
-
-
-
 
         }'b'{ $loop = $false } 
         }
     }
-
-    #add more menu options, brainstorm MF!
     }'4'{
 
     }'5'{
